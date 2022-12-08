@@ -1,10 +1,19 @@
 <template>
-  <h1>{{ sayHello }}</h1>
+  <div>
+ <button />
+  </div>
+  
 </template>
 
 <script setup>
 import { ref } from 'vue';
-const sayHello = "Hello World!"
+import Button from './components/Button.vue';
+
+
 
 </script>
-<style scoped></style>
+
+<style scoped>
+
+
+</style>
