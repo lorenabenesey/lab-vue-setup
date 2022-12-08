@@ -1,6 +1,8 @@
 <template>
-  <button @click="count++">Add 1</button>
+  <div>
+  <button @click="counter++">Add 1</button>
   <p>The button above has been clicked {{ counter }} times.</p>
+</div>
 </template>
 
 <script setup>
