@@ -1,12 +1,11 @@
 <template>
   <button @click="count++">Add 1</button>
-  <p>Count is: {{ count }}</p>
+  <p>The button above has been clicked {{ counter }} times.</p>
 </template>
 
 <script setup>
-function sayHello(hello) {
-  sayHello();
-}
+import { ref } from 'vue'
+const counter = ref(0);
 </script>
 
 <style>
